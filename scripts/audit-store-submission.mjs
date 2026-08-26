@@ -58,8 +58,8 @@ for (const [size, fileName] of requiredIcons) {
   icons[size] = dimensions;
 }
 
-const chromiumFileName = `Farsi-Smart-Assistant-v${version}-chromium.zip`;
-const firefoxFileName = `Farsi-Smart-Assistant-v${version}-firefox.zip`;
+const chromiumFileName = `NeveshtYar-v${version}-chromium.zip`;
+const firefoxFileName = `NeveshtYar-v${version}-firefox.zip`;
 const chromiumZip = path.join(releaseRoot, chromiumFileName);
 const firefoxZip = path.join(releaseRoot, firefoxFileName);
 const chromiumStat = await stat(chromiumZip);
@@ -85,7 +85,7 @@ if (JSON.stringify(firefoxManifest.background) !== JSON.stringify({ scripts: ['b
 }
 
 const sourceManifest = JSON.parse(await readFile(path.join(reviewerRoot, 'source-manifest.json'), 'utf8'));
-const expectedSourceName = `Farsi-Smart-Assistant-v${version}-amo-source.zip`;
+const expectedSourceName = `NeveshtYar-v${version}-amo-source.zip`;
 if (sourceManifest.version !== version || sourceManifest.fileName !== expectedSourceName) fail('AMO source manifest version/name mismatch.');
 const sourceZip = await readFile(path.join(reviewerRoot, expectedSourceName));
 if (sha256(sourceZip) !== sourceManifest.sha256) fail('AMO reviewer source SHA mismatch.');

@@ -183,12 +183,12 @@ await rm(outputRoot, { recursive: true, force: true });
 await mkdir(outputRoot, { recursive: true });
 
 const zip = createStoredZip(files);
-const fileName = `Farsi-Smart-Assistant-v${version}-amo-source.zip`;
+const fileName = `NeveshtYar-v${version}-amo-source.zip`;
 await writeFile(path.join(outputRoot, fileName), zip);
 
 const sourceManifest = {
   schemaVersion: 1,
-  product: 'Farsi Smart Assistant',
+  product: 'NeveshtYar',
   version,
   fileName,
   sha256: sha256(zip),
