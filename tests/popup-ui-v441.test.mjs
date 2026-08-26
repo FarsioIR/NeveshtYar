@@ -51,7 +51,7 @@ test('v4.4.1 footer identifies Amir Motefaker and repository', () => {
   assert.match(popupHtml, /https:\/\/amirmotefaker\.ir\//u);
   assert.match(
     popupHtml,
-    /https:\/\/github\.com\/AmirMotefaker\/Farsi-Smart-Assistant/u
+    /https:\/\/github\.com\/FarsioIR\/NeveshtYar/u
   );
   assert.match(popupHtml, /assets\/browser-logos\/github\.svg/u);
 });

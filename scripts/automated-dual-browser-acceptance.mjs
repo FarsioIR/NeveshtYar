@@ -62,7 +62,7 @@ if (!chromeExecutable) {
   );
 }
 
-const EXPECTED_VERSION = '4.9.1';
+const EXPECTED_VERSION = '4.9.2';
 
 const EXPECTED_FIREFOX_ID =
   '@farsi-smart-assistant.amirmotefaker';
@@ -79,7 +79,7 @@ const APPROVED_TOOLBAR_SHA256 = Object.freeze({
 });
 
 const checks = [
-  'Exact browser package loads at version 4.9.1',
+  'Exact browser package loads at version 4.9.2',
   'Approved toolbar glyph asset contract is preserved',
   'Popup visual/source contract is preserved',
   'FA|EN + Light|Dark persistence contract is preserved',
@@ -793,14 +793,14 @@ async function chromeRuntime(
       extensionEntries.find(
         ([, extension]) =>
           extension?.name ===
-            'Farsi Smart Assistant' &&
+            'NeveshtYar' &&
           extension?.version ===
             EXPECTED_VERSION
       ) || null;
 
     if (!exactExtension) {
       throw new Error(
-        'Installed Chrome started, but Puppeteer runtime install did not register Farsi Smart Assistant 4.9.1.'
+        'Installed Chrome started, but Puppeteer runtime install did not register NeveshtYar 4.9.2.'
       );
     }
 
@@ -1812,7 +1812,7 @@ function markdown(
   report
 ) {
   const lines = [
-    '# FSA v4.9.1 Automated Dual-Browser Acceptance',
+    '# NeveshtYar v4.9.2 Automated Dual-Browser Acceptance',
     '',
     `Generated: ${report.generatedAt}`,
     `Overall: **${report.overall}**`,

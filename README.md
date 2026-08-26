@@ -6,7 +6,7 @@
 </p>
 
 <!-- farsio-brand:v1 -->
-**Farsi Smart Assistant by Farsio**
+**NeveshtYar by Farsio · نوشت‌یار از فارسیو**
 
 Persian & English writing assistant, keyboard-layout recovery and Finglish correction.
 
@@ -27,7 +27,7 @@ Persian & English writing assistant, keyboard-layout recovery and Finglish corre
 </p>
 
 > [!TIP]
-> اگر «دستیار هوشمند فارسی» برای شما مفید است، با ⭐ دادن به مخزن به دیده‌شدن پروژه و توسعه بیشتر ابزارهای متن‌باز فارسی کمک کنید.
+> اگر «نوشت‌یار» برای شما مفید است، با ⭐ دادن به مخزن به دیده‌شدن پروژه و توسعه بیشتر ابزارهای متن‌باز فارسی کمک کنید.
 
 ## ✨ بزرگترین چالش فارسی‌زبانان: حل مشکل کیبورد انگلیسی
 
@@ -81,10 +81,10 @@ Persian & English writing assistant, keyboard-layout recovery and Finglish corre
 
 ### آخرین بسته‌های انتشار
 
-از نسخه v4.8.0 به بعد فایل‌ها به صورت versioned ساخته می‌شوند؛ بسته‌های هدف v4.9.1 با این نام‌ها هستند:
+از نسخه v4.8.0 به بعد فایل‌ها به صورت versioned ساخته می‌شوند؛ بسته‌های هدف v4.9.2 با این نام‌ها هستند:
 
-- `Farsi-Smart-Assistant-v4.9.1-chromium.zip` برای Chrome / Edge / Brave / Opera / Vivaldi
-- `Farsi-Smart-Assistant-v4.9.1-firefox.zip` برای Firefox
+- `NeveshtYar-v4.9.2-chromium.zip` برای Chrome / Edge / Brave / Opera / Vivaldi
+- `NeveshtYar-v4.9.2-firefox.zip` برای Firefox
 - `SHA256SUMS.txt` برای اعتبارسنجی فایل‌ها
 
 صفحه انتشارها: **[GitHub Releases](https://github.com/FarsioIR/NeveshtYar/releases)**
@@ -94,7 +94,7 @@ Persian & English writing assistant, keyboard-layout recovery and Finglish corre
 
 ### نصب دستی در مرورگرهای Chromium برای تست/توسعه
 
-1. بسته `Farsi-Smart-Assistant-v4.9.1-chromium.zip` را از Release دانلود کنید.
+1. بسته `NeveshtYar-v4.9.2-chromium.zip` را از Release دانلود کنید.
 2. SHA256 فایل را با `SHA256SUMS.txt` تطبیق دهید.
 3. ZIP را Extract کنید.
 4. صفحه مدیریت افزونه‌های مرورگر را باز کنید.
@@ -103,7 +103,7 @@ Persian & English writing assistant, keyboard-layout recovery and Finglish corre
 
 ### نصب موقت در Firefox برای تست/توسعه
 
-1. بسته `Farsi-Smart-Assistant-v4.9.1-firefox.zip` را Extract کنید.
+1. بسته `NeveshtYar-v4.9.2-firefox.zip` را Extract کنید.
 2. `about:debugging` را باز کنید.
 3. **This Firefox** → **Load Temporary Add-on** را انتخاب کنید.
 4. فایل `manifest.json` بسته Firefox را انتخاب کنید.
