@@ -26,7 +26,7 @@
   "devDependencies": {
     "dictionary-en": "4.0.0",
     "dictionary-fa": "2.0.0",
-    "puppeteer": "25.4.0",
+    "puppeteer": "25.8.0",
     "selenium-webdriver": "4.47.0"
   }
 }
