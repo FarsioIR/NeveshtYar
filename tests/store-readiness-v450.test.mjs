@@ -53,12 +53,12 @@ test('release scripts are first-class package commands', () => {
 test('README points to the current versioned release artifacts', () => {
   assert.ok(
     readme.includes(
-      `Farsi-Smart-Assistant-v${packageJson.version}-chromium.zip`
+      `NeveshtYar-v${packageJson.version}-chromium.zip`
     )
   );
   assert.ok(
     readme.includes(
-      `Farsi-Smart-Assistant-v${packageJson.version}-firefox.zip`
+      `NeveshtYar-v${packageJson.version}-firefox.zip`
     )
   );
   assert.match(readme, /SHA256SUMS\.txt/u);

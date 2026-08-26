@@ -15,9 +15,10 @@ const auditStore = await readFile(path.join(root, 'scripts', 'audit-store-submis
 const privacy = await readFile(path.join(root, 'docs', 'PRIVACY.md'), 'utf8');
 const workflow = await readFile(path.join(root, '.github', 'workflows', 'security-quality-gate.yml'), 'utf8');
 
-test('v4.9.1 Store-safe metadata and permission surface are minimal', () => {
-  assert.equal(manifest.version, '4.9.1');
-  assert.equal(packageJson.version, '4.9.1');
+test('v4.9.2 Store-safe metadata and permission surface are minimal', () => {
+  assert.equal(manifest.version, '4.9.2');
+  assert.equal(packageJson.version, '4.9.2');
+  assert.equal(manifest.name, 'NeveshtYar');
   assert.deepEqual(manifest.permissions, ['storage', 'activeTab']);
   assert.equal(Object.hasOwn(manifest, 'host_permissions'), false);
   assert.equal(Object.hasOwn(manifest, 'omnibox'), false);

@@ -200,7 +200,7 @@ for (const browser of ['chromium', 'firefox']) {
 
   const files = await collectFiles(packageDirectory);
   const zip = createStoredZip(files);
-  const fileName = `Farsi-Smart-Assistant-v${version}-${browser}.zip`;
+  const fileName = `NeveshtYar-v${version}-${browser}.zip`;
   const outputPath = path.join(releaseRoot, fileName);
 
   await writeFile(outputPath, zip);
@@ -226,7 +226,7 @@ await writeFile(
 
 const releaseManifest = {
   schemaVersion: 1,
-  product: 'Farsi Smart Assistant',
+  product: 'NeveshtYar',
   version,
   deterministicZip: {
     method: 'stored',

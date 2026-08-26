@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Farsi Smart Assistant",
-  "version": "4.9.1",
+  "name": "NeveshtYar",
+  "version": "4.9.2",
   "description": "Universal smart typing correction for Persian and English across the web.",
   "permissions": [
     "storage",

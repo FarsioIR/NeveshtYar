@@ -1,8 +1,8 @@
 {
   "name": "farsi-smart-assistant",
-  "version": "4.9.1",
+  "version": "4.9.2",
   "private": true,
-  "description": "Local-first quality gates and statistical intent engine for Farsi Smart Assistant.",
+  "description": "Local-first quality gates and statistical intent engine for NeveshtYar.",
   "scripts": {
     "build:browsers": "node scripts/build-browser-packages.mjs",
     "build:release": "node scripts/build-release-artifacts.mjs",

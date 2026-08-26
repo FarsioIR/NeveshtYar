@@ -120,7 +120,7 @@ const forbiddenFiles = new Set([
 
 for (const browser of ['chromium', 'firefox']) {
   const expectedName =
-    `Farsi-Smart-Assistant-v${canonicalManifest.version}-${browser}.zip`;
+    `NeveshtYar-v${canonicalManifest.version}-${browser}.zip`;
   const artifact = releaseManifest.artifacts.find(
     (item) => item.browser === browser
   );

@@ -293,7 +293,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         reportIssueLink.addEventListener('click', () => {
-            const url = 'https://github.com/AmirMotefaker/Farsi-Smart-Assistant/issues/new';
+            const url = 'https://github.com/FarsioIR/NeveshtYar/issues/new';
             chrome.tabs.create({ url });
         });
 
